@@ -7,8 +7,9 @@
 ```json
   "dependencies": {
     "eslint": "^7.18.0",
-    "prettier-config-gy": "^0.1.8",
-    "stylelint-config-gy": "^0.1.7"
+    "stylelint-config-gy": "^0.1.8",
+    "prettier-config-gy": "^0.1.9"
+    
   },
 ```
 

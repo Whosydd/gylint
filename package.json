@@ -1,6 +1,6 @@
 {
   "name": "gylint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "eslint + prettier + stylelint",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,8 +17,8 @@
   ],
   "dependencies": {
     "eslint": "^7.18.0",
-    "prettier-config-gy": "^0.1.8",
-    "stylelint-config-gy": "^0.1.7"
+    "stylelint-config-gy": "^0.1.8",
+    "prettier-config-gy": "^0.1.9"
   },
   "author": "GY <youngkwok718@gmail.com>",
   "license": "MIT",
