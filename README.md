@@ -17,16 +17,15 @@ $ npm i -D gylint
 ### Usage
 
 ```json
-// .eslintrc
+// edit .eslintrc
 {
   "extends": ["plugin:prettier/recommended"],
 }
 
 // -------------------------------------------------
 
-// package.json
+// edit package.json
 {
-  // ...
   "prettier": {
     "printWidth": 100,
     "singleQuote": true,
