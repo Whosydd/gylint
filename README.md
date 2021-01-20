@@ -1,27 +1,12 @@
 ## 说明
 
+<br>
+
 如果你和我一样懒，请使用这个包。。。
 
-#### **依赖：**
-
-```json
-  "dependencies": {
-    "eslint": "^7.18.0",
-    "stylelint-config-gy": "^0.1.8",
-    "prettier-config-gy": "^0.1.9"
-    
-  },
-```
-
 <br>
 
-[![npm](https://img.shields.io/npm/v/stylelint-config-gy?label=stylelint-cofig-gy)](https://www.npmjs.com/package/stylelint-config-gy)
-
-[![npm](https://img.shields.io/npm/v/prettier-config-gy?label=prettier-cofig-gy)](https://www.npmjs.com/package/prettier-config-gy)
-
-<br>
-
-#### **Install**:
+### Installation
 
 ```bash
 $ npm i -D gylint
@@ -29,36 +14,53 @@ $ npm i -D gylint
 
 <br>
 
-#### **Edit `package.json`**:
+### Usage
 
 ```json
+// .eslintrc
+{
+  "extends": ["plugin:prettier/recommended"],
+}
+
+// -------------------------------------------------
+
+// package.json
 {
   // ...
-  "prettier": "prettier-config-gy",
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "semi": false
+  },
   "stylelint": {
     "extends": [
-      "stylelint-config-gy",
-      "stylelint-config-prettier",
       "stylelint-config-standard",
-      "stylelint-config-recess-order"
+      "stylelint-config-recess-order",
+      "stylelint-config-prettier",
+      "stylelint-config-gy"
     ]
   },
 }
-```
 
-<br>
+// -------------------------------------------------
 
-#### vscode用户代码片段：
-
-```json
-// 将以下代码加入到/snippets/jsonc.json
+// vscode创建用户代码片段（添加到jsonc.json）
 {
 "gylint": {
     "prefix": "gylint",
     "body": [
-      "\"prettier\": \"prettier-config-gy\",",
+      "\"prettier\": {",
+      "\t\"printWidth\": 100,",
+      "\t\"singleQuote\": true,",
+      "\t\"semi\": false",
+      "},",
       "\"stylelint\": {",
-      "\t\"extends\": [\"stylelint-config-standard\", \"stylelint-config-recess-order\", \"stylelint-config-prettier\", \"stylelint-config-gy\"]",
+      "\t\"extends\": [",
+      "\t\t\"stylelint-config-standard\",",
+      "\t\t\"stylelint-config-recess-order\",",
+      "\t\t\"stylelint-config-prettier\",",
+      "\t\t\"stylelint-config-gy\"",
+      "\t]",
       "},"
     ],
     "description": "prettier&stylelint config for package.json"
@@ -66,3 +68,4 @@ $ npm i -D gylint
 }
 ```
 
+<br>

@@ -1,10 +1,7 @@
 {
   "name": "gylint",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "eslint + prettier + stylelint",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/whosydd/gylint.git"
@@ -12,13 +9,18 @@
   "keywords": [
     "eslint",
     "prettier",
-    "stylelint",
-    "lint"
+    "stylelint"
   ],
   "dependencies": {
     "eslint": "^7.18.0",
-    "stylelint-config-gy": "^0.1.8",
-    "prettier-config-gy": "^0.1.9"
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.9.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-gy": "^0.2.0"
   },
   "author": "GY <youngkwok718@gmail.com>",
   "license": "MIT",
