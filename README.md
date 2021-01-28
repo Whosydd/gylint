@@ -17,7 +17,7 @@ npm i -D gylint
 ### Usage
 
 ```bash
-npx gylint init
+npx gylint
 ```
 
 <br>

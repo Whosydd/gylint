@@ -1,6 +1,6 @@
 {
   "name": "gylint",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "eslint + prettier + stylelint",
   "repository": {
     "type": "git",
