@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recess-order",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "number-leading-zero": null,
+    "color-hex-case": "lower",
+    "color-hex-length": null,
+    "color-no-invalid-hex": true,
+    "rule-empty-line-before": null,
+    "unit-whitelist": ["em", "rem", "%", "s", "px", "deg"],
+    "declaration-colon-newline-after": null,
+    "declaration-block-trailing-semicolon": null,
+    "block-no-empty": null,
+    "declaration-colon-space-after": "always",
+    "max-empty-lines": 2,
+    "comment-empty-line-before": null,
+    "at-rule-empty-line-before": null,
+    "no-descending-specificity": null
+  }
+}

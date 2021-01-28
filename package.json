@@ -1,6 +1,6 @@
 {
   "name": "gylint",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "eslint + prettier + stylelint",
   "repository": {
     "type": "git",
@@ -11,6 +11,13 @@
     "prettier",
     "stylelint"
   ],
+  "bin": {
+    "gylint": "./bin/init.js"
+  },
+  "files": [
+    "./bin",
+    "./src"
+  ],
   "dependencies": {
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.2.0",
@@ -19,8 +26,7 @@
     "stylelint": "^13.9.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recess-order": "^2.3.0",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-config-gy": "^0.2.0"
+    "stylelint-config-standard": "^20.0.0"
   },
   "author": "GY <youngkwok718@gmail.com>",
   "license": "MIT",
