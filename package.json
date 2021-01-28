@@ -15,8 +15,8 @@
     "gylint": "./bin/init.js"
   },
   "files": [
-    "./bin",
-    "./src"
+    "bin",
+    "src"
   ],
   "dependencies": {
     "eslint": "^7.18.0",
