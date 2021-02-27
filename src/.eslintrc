@@ -5,6 +5,7 @@
     "es2021": true
   },
   "extends": ["plugin:prettier/recommended"],
+  "plugins": ["html"],
   "parserOptions": {
     "ecmaVersion": 12
   },
