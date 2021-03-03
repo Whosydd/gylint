@@ -20,11 +20,10 @@ npm i -D gylint
 npx gylint
 ```
 
-> 该命令会在项目根目录创建 `.eslintrc` `.eslintignore` `.prettierrc` `.prettierignore` `.stylelintrc` `.stylelintignore`
+> 该命令会在项目根目录创建 `.eslintrc.js` `.eslintignore` `.prettierrc.js` `.prettierignore` `.stylelintrc.js` `.stylelintignore`
 >
 > 你可以根据你的需要去修改它
 
 <br>
 
 ### [Changelog](https://github.com/Whosydd/gylint/blob/main/CHANGELOG.md)
-
