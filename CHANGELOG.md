@@ -3,6 +3,60 @@
 稍微记录下更新。。。
 <br>
 
+## 0.4.2
+
+#### 删除 json 中的注释
+
+### [.eslintrc]
+
+```json
+  "rules": {
+    // 末尾分号
+    "semi": ["error", "never"],
+    // 仅允许console.log|warn|error
+    "no-console": ["error", { "allow": ["warn", "error", "log"] }],
+    // 最多2个空行
+    "no-multiple-empty-lines": ["error", { "max": 2 }],
+    // 允许变量重复
+    "no-shadow": ["error", { "allow": ["done", "url"] }],
+    // 箭头函数仅在必要时使用()
+    "arrow-parens": ["error", "as-needed"],
+    // iife使用()()的形式
+    "wrap-iife": ["error", "inside"],
+    // 尾随逗号
+    "comma-dangle": ["error", "only-multiline"],
+    // 循环中允许使用 ++|--
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    // 换行默认使用LF
+    "linebreak-style": ["error", "unix"]
+  }
+```
+
+### [.prettierrc]
+
+```json
+{
+  // 代码宽度建议不超过100字符
+  "printWidth": 100,
+  // tab缩进2个空格
+  "tabWidth": 2,
+  // 末尾分号
+  "semi": false,
+  // 单引号
+  "singleQuote": true,
+  // jsx中使用单引号
+  "jsxSingleQuote": true,
+  // 尾随逗号
+  "trailingComma": "es5",
+  // 箭头函数仅在必要时使用()
+  "arrowParens": "avoid",
+  // html空格敏感度
+  "htmlWhitespaceSensitivity": "css"
+}
+```
+
+<br>
+
 ## 0.4.1
 
 ### [.eslintrc]
