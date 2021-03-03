@@ -1,6 +1,20 @@
 # Changelog
 
 稍微记录下更新。。。
+<br>
+
+## 0.4.1
+
+### [.eslintrc]
+
+- 改用 `airbnb-base` 规范代码
+- 删除 `eslint-config-prettier`
+- 删除 `eslint-plugin-prettier`
+- 添加常用规则（附说明）
+
+### [.prettierrc]
+
+- 添加常用规则（附说明）
 
 <br>
 
